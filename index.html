@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>BlackAndWhite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="page-header">
+		<nav class="header-nav">
+			<div class="container">
+				<section class="header-logo">
+						<h1 class="logo-title">
+							<a href="index.html" class="logo-link">Black<span>and</span>White
+							</a>
+						</h1>
+						<p class="logo-description">Lorem ipsum dolor sit amet</p>
+				</section>
+				<section class="header-search">
+					<form action="formdata.php" method="get" class="search-form">
+						<input type="search" name="search" class="search-area">
+						<button type="submit" class="search-btn">Search</button>
+					</form>
+				</section>
+			</div>
+		</nav>
+		<section class="header-slider">
+				<section class="slider-slogan">
+					<p class="slogan-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</section>
+		</section>
+	</header>
+
+	<main class="page-main">
+		<div class="container">
+			<nav class="main-nav">
+				<input type="checkbox" class="toogle toogle-hidden" id="toogle-btn">
+				<label for="toogle-btn"></label>		
+				<ul class="main-menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<section class="main-content">
+				<section class="content-about">
+					<h2 class="about-title title">What we do</h2>
+					<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <b>Excepteur sint occaecat</b> cupidatat non proident, sunt in culpa qui officia deserunt </p>
+					<blockquote> 
+					— Duis aute irure dolor in reprehenderit in voluptate velit esse
+					</blockquote>
+				</section>
+				<section class="content-images" >
+					<h2 class="images-title title">Images</h2>
+					<figure class="images-block">
+						<img src="img/img1.jpg" alt="img1" tabindex="0">
+						<img src="img/img2.jpg" alt="img2" tabindex="0">
+						<img src="img/img3.jpg" alt="img3" tabindex="0">
+						<img src="img/img4.jpg" alt="img4" tabindex="0">
+					</figure>
+				</section>
+				<section class="content-lists">
+					<h2 class="lists-title title">Lists and Descriptions</h2>
+					<div class="lists-block">
+						<ul>
+							<li>Sed ut perspiciatis unde omnis iste natus</li>
+							<li>Lorem ipsum dolor sit amet, consectetur</li>
+							<li>At vero eos et accusamus et iusto odio</li>
+							<li>Et harum quidem rerum facilis est</li>
+						</ul>
+						<ol>
+							<li>Sed ut perspiciatis unde omnis iste natus</li>
+							<li>Lorem ipsum dolor sit amet, consectetur</li>
+							<li>At vero eos et accusamus et iusto odio</li>
+							<li>Et harum quidem rerum facilis est</li>
+						</ol>
+						<dl>
+							<dt>Sed ut perspiciatis unde omnis iste natus</dt>
+								<dd>Lorem ipsum dolor sit amet, consectetur</dd>
+							<dt>At vero eos et accusamus et iusto odio</dt>
+								<dd>Et harum quidem rerum facilis est</dd>
+						</dl>
+					</div>
+				</section>	
+				<section class="content-table">
+					<h2 class="table-title title">Table</h2>
+					<div class="table-block">
+						<table class="index-table">
+							<tr>
+								<th>Lorem</th>
+								<th>Sed ut perspiciatis unde</th>
+								<th>Sed ut perspiciatis unde</th>
+								<th>Sed ut perspiciatis unde</th>
+							</tr>
+							<tr>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+							</tr>
+							<tr>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+							</tr>
+							<tr>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+							</tr>
+							<tr>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+								<td>At vero eos et</td>
+							</tr>
+						</table>
+					</div>
+				</section>		
+				<section class="content-form">
+					<h2 class="form-title title">Form</h2>
+					<form action="formdata.php" method="POST" class="main-form">
+						<p class="input-box">
+							<label for="text">Text</label><br>
+							<input type="text" name="text" placeholder="Input type text" id="text" required>
+						</p>
+						<p class="input-box">
+							<label for="select">Select</label><br>
+							<select id="select" class="select" name="select">
+				  				<option value="1">Option</option>
+				  				<option value="2">Option2</option>
+				  				<option value="3">Option3</option>
+				  				<option value="4">Option4</option>
+							</select>
+						</p>
+						<p class="checkbox-box input-box">
+							<input type="checkbox" id="checkbox" name="checkbox" value="true">
+							<label for="checkbox">Sed ut perspiciatis unde omnis iste natus</label>
+						</p>
+						<p class="radio-box input-box">
+							<input type="radio" id="radio" value="yes" name="radio" checked>
+							<label for="radio">Lorem ipsum dolor sit amet, consectetur</label>
+						</p>
+						<p class="input-box textarea-box">
+							<label for="textarea">Textarea</label>
+							<textarea name="textarea" id="textarea" cols="45" rows="10" class="textarea"></textarea>
+						</p>
+						<button type="submit" class="btn">Button</button>
+					</form>
+				</section>
+			</section>
+		</div>
+	</main>
+
+	<footer class="page-footer">
+		<div class="container">
+			<p class="footer-text">&copy; Footer content <a href="">Link footer</a></p>
+		</div>
+	</footer>
+</body>
+</html>
